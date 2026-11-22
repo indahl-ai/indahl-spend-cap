@@ -1,0 +1,17 @@
+{
+  "name": "indahl-spend-cap",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-spend-cap",
+      "source": "./",
+      "description": "Refuse an agent's tool calls once its session has used the budget you set, in raw tokens or in dollars at your own prices. Counts the session and its subagents, warns once near the limit, and enforces the stricter of your project and home budgets. A refusal, not a kill switch.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://indahl.ai/connect"
+    }
+  ]
+}
